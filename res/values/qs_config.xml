@@ -1,0 +1,4 @@
+<resources>
+    
+    <integer name="config_maxScreenCount">7</integer>
+</resources>

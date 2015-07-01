@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.qstwzlauncher.FloatHodlerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/qs_floatholder_view"
+    android:background="@null"
+    android:orientation="horizontal" >
+    
+    <LinearLayout android:tag="container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/zzzz_float_holder"
+        >
+	    <GridView 
+	        android:tag="gridview"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        
+	        android:layout_marginBottom="5dp"
+	        android:layout_weight="1"
+	        android:smoothScrollbar="true"
+	        android:fadingEdge="horizontal"
+	        android:fadeScrollbars="true"
+	        />
+	    <Button 
+	        android:tag="editbtn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:visibility="gone"
+	        />
+	</LinearLayout>
+
+	<ImageButton
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:scaleType="fitXY"
+	    android:tag="dragbar"
+	    android:background="@null"
+	    android:src="@drawable/zzzz_float_holder_drager"
+	    />
+
+</com.android.qstwzlauncher.FloatHodlerView>
